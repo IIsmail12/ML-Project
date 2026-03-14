@@ -1,0 +1,19 @@
+PRODUCTION:
+Dataset containing PLC information on the processing settings at COIL-DATE-MT level.
+COIL:ID of the metal coil processed
+MT:meter observation of the coil (i.e. one observation every 7 meters)
+DATE: day of the year in which the processing of a given COIL-MT started
+TIME_START_PROCESS: time in which the processing started 
+All the remaining fields are settings refering to the processing of a given COIL-MT.
+
+Hint: check the reliability of the MT variable.
+
+DEFECTS:
+Dataset containing information on the detected defect by coil and type of defect.
+This information are gathered during quality control processes after the production.
+COIL: ID of the metal coil processed
+MT_FROM: point of the coil in which a given defect start.
+MT_TO: point in which a given defect end.
+DATE: date in which the coil has been processed.
+DIF_TIPO_1(to6): indicator for the kind of of defect detected.
+
