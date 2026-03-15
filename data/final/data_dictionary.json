@@ -1,0 +1,44 @@
+{
+  "DIF_TIPO_1": {
+    "prevalence": "5.3% of coils",
+    "cluster_association": "Strongest in Cluster 4 (10%)",
+    "sensor_signature": "High raffination laser + elevated zone 5 combustion",
+    "hypothesis": "Surface defect caused by strip running high post-furnace under elevated zone 5 conditions",
+    "confidence": "Low \u2014 only 66 coils, weak cluster signal"
+  },
+  "DIF_TIPO_2": {
+    "prevalence": "5.7% of coils",
+    "cluster_association": "Strongest in Cluster 1 (7%)",
+    "sensor_signature": "High zone 1+2 furnace pressure, lower finishing force",
+    "hypothesis": "Pressure-related surface defect from over-pressurised early furnace zones",
+    "confidence": "Low \u2014 only 71 coils, weak cluster signal"
+  },
+  "DIF_TIPO_3": {
+    "prevalence": "34.6% of coils \u2014 most common",
+    "cluster_association": "Strongest in Cluster 4 (50%)",
+    "sensor_signature": "High raffination laser + low pre-heat pressure + elevated zone 5",
+    "hypothesis": "Most prevalent defect \u2014 likely scale or oxidation driven by raffination strip position and insufficient pre-heating",
+    "confidence": "Medium \u2014 429 coils, clearest cluster signal of all types"
+  },
+  "DIF_TIPO_4": {
+    "prevalence": "19.9% of coils",
+    "cluster_association": "Strongest in Cluster 4 (30%)",
+    "sensor_signature": "Almost always co-occurs with Tipo 3 \u2014 same sensor signature",
+    "hypothesis": "Secondary defect that accompanies Tipo 3 \u2014 possibly same root cause presenting differently on inspection",
+    "confidence": "Medium \u2014 247 coils, but inseparable from Tipo 3 in sensor space"
+  },
+  "DIF_TIPO_5": {
+    "prevalence": "3.3% of coils \u2014 rare",
+    "cluster_association": "Spread across clusters 1, 3, 5 evenly",
+    "sensor_signature": "No dominant sensor pattern identified",
+    "hypothesis": "Rare defect with no clear process driver in PLC data \u2014 may depend on material properties or external factors",
+    "confidence": "Very low \u2014 only 41 coils, no cluster signal"
+  },
+  "DIF_TIPO_6": {
+    "prevalence": "3.6% of coils \u2014 rare",
+    "cluster_association": "Slightly elevated in Cluster 4 (5%)",
+    "sensor_signature": "Weak association with high raffination laser + zone 5 pattern",
+    "hypothesis": "Rare defect loosely associated with same conditions as Tipo 3 and 4",
+    "confidence": "Very low \u2014 only 45 coils, very weak signal"
+  }
+}
