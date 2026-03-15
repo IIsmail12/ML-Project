@@ -1,5 +1,4 @@
 data/raw/RC_PRODUCTION_clean.csv
-data/cleaned/plc_defect_merged.csv
 data/final/merged_with_clusters.csv
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
